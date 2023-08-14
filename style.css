@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    background-color: #b2a4a4;
+}
+
+.container nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px;
+    background-color: #f6f7f8f0;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.nav-card {
+    display: none;
+
+}
+
+.container nav button {
+    display: none;
+}
+
+.nav-card li {
+    list-style: none;
+    padding: 1rem;
+    font-weight: bold;
+    justify-content:center;
+
+}
+
+.container nav i:hover>.buy-card {
+    width: 400px;
+    position: absolute;
+    right: 0;
+    background-color: #ffff;
+}
+
+.container nav i:hover .nav-card {
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px 0 10px;
+    border-bottom: solid thin #e1e1e1;
+
+}
+
+.container nav i:hover .buy-card>button {
+    display:block;
+    width: 90%;
+    padding: 1rem;
+    margin: 10px auto;
+    background-color: transparent;
+    border: solid thin #e1e1e1;
+    color: #494848;
+    cursor: pointer;
+}
+
+
+.container nav i:hover .buy-card>button:hover {
+    border: solid thin #494848;
+    transition: all .4s;
+}
+
+.container nav i {
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: #222;
+}
+
+.grid {
+    display: grid;
+    max-width: 1100px;
+    justify-content: center;
+    margin: auto;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 300px));
+    padding-bottom: 50px;
+}
+
+.items {
+    background-color: #fff;
+    border: solid thin #e1e1e1;
+}
+
+.items img {
+    width: 100%;
+    height: 75%;
+}
+
+.info {
+    padding: 15px;
+}
+
+.info h3 {
+    font-size: 1.6rem;
+}
+
+.info p {
+    font-size: 1.5rem;
+}
+
+.precio {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+}
+
+.precio p {
+    font-size: 1.8rem;
+}
+
+.info h3,
+.info p {
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.precio p:first-child {
+    text-decoration: line-through;
+}
+
+.info button {
+    padding: 1rem;
+    width: 100%;
+    background-color: #11404e;
+    border: none;
+    outline: none;
+    color: #ffff;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.info button:hover {
+    background-color: #2da0c3;
+    transition: all .3s;
+}
+
+
+/*Acomodar los elementos de nuestro carrito de compras*/
+
+.lista_de_sillones div {
+    display: none;
+    text-align: center;
+    padding: 10px 0 0 0;
+    border-top: solid thin rgb(17, 17, 17);
+    background-color:rgb(245, 245, 245);
+
+}
+.container nav i:hover .buy-card>.lista_de_sillones div {
+    display: flex;
+    
+}
+
+.lista_de_sillones img {
+    width: 80px;
+    margin: 4px;
+
+}
+
+.lista_de_sillones p {
+    width: 300px;
+    font-size: 1.3rem;
+    text-align: end;
+    justify-content: center;
+
+}
+
+.lista_de_sillones p:nth-child(3) {
+    padding-left: 15%;
+}
+
+.lista_de_sillones p:nth-child(4) {
+    padding-left: 15%;
+    text-align: center;
+}
+
+
+.lista_de_sillones p:last-child span {
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+/*Acomodar elementos en carrito*/
+
+.contenedor-sillones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0 0 0;
+    border-top: solid thin gray;
+
+}
+
+.container nav i:hover .buy-card>.contenedor-sillones {
+    display: flex;
+}
+
+.contenedor-sillones img {
+    width: 100px;
+}
+
+.contenedor-sillones p {
+    display: none;
+    width: 200px;
+    font-size: 1.3rem;
+}
+
+.contenedor-sillones :nth-child(4) {
+    padding-left: 40px;
+}
+
+.contenedor-sillones p:last-child span {
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+
+.redes {
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    margin: 15px;
+}
+
+.redes .linkRedes {
+    padding: 5px;
+    margin: 5px;
+    color: rgb(16, 15, 13);
+}
