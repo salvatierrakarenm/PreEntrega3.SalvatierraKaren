@@ -93,7 +93,7 @@ function carritoHTML() {
     });
 }
 
-//Elimina los sillones de la lista_de_cursos
+//Elimina los sillones de la lista_de_sillones.
 function limpiarHTML() {
     while (contenedorCarrito.firstChild) {
         contenedorCarrito.removeChild(contenedorCarrito.firstChild)
