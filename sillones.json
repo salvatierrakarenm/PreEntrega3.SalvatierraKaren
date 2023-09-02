@@ -1,0 +1,52 @@
+
+[
+    {
+        "id": 1,
+        "nombre": "Juego Lisboa",
+        "descripcion": "Sofá estético moderno.",
+        "precio": 628.000,
+        "descuento": 579.000,
+        "imagen": "Sillon1.jpg"
+    },
+    {
+        "id": 2,
+        "nombre": "Sofa espuma Well",
+        "descripcion": "Con bordes suaves y silueta curvilínea.",
+        "precio": 329.000,
+        "descuento": 275.000,
+        "imagen": "Sillon2.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Sofá modular sin brazos Boro Stripe Kori",
+        "descripcion": "Serie modular con patrón de diseño atemporal.",
+        "precio": 329.000,
+        "descuento": 256.000,
+        "imagen": "Sillon3.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Sofá Woven Asa Kori",
+        "descripcion": "Alfombra de algodón tejida a mano.",
+        "precio": 527.000,
+        "descuento": 399.000,
+        "imagen": "sillon4.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Boro Stripe Kori",
+        "descripcion": "Acolchado de fibra suave de plumón y plumas",
+        "precio": 378.000,
+        "descuento": 299.000,
+        "imagen": "sillon5.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Brazos Saguaro",
+        "descripcion": "Silueta oceánica que es increíblemente suave.",
+        "precio": 394.000,
+        "descuento": 310.000,
+        "imagen": "sillon6.jpg"
+    }
+]
+

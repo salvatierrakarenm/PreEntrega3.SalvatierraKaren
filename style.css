@@ -264,3 +264,45 @@ h1 {
     margin: 5px;
     color: rgb(16, 15, 13);
 }
+
+
+/* Estilos para el encabezado y la barra de navegación */
+header {
+    background-color: #333;
+    color: #fff;
+    font-size: 3rem;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff6600;
+}
+
